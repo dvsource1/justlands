@@ -8,6 +8,8 @@ Run `pnpm install` to install node packages
 
 ## Development Server
 
-Run `pnpm start:client` for angular dev server. And run `pnpm start:client` for node express dev server.
+1. Run `docker-compose up` for mongodb docker container.
+2. Run `pnpm start:server` for node express dev server.
+3. Run `pnpm start:client` for angular dev server.
 
 Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
